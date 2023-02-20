@@ -1,0 +1,82 @@
+.container {
+    font-family: 'Raleway', sans-serif;
+}
+.title-product{
+    h1 {
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 130%;
+        text-align: center;
+        padding-top: 90px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #50594E;
+        text-align: center;
+        
+    }
+}
+
+.card {
+    padding: 30px;
+    border: 1px solid #f2f2f2;
+    width: 260px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    
+    h5 {
+        font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 140%;
+        margin: 0;
+    }
+}
+.card:hover {
+    transition: 0.3s;
+    transform: translateY(-10px);
+    background-color: #f1f8ee;
+}
+.inner-card {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    margin: 20px;
+    span {
+        margin-right: 20px;
+
+    }
+}
+
+.button-product {
+    width: 250px;
+    height: 49px;
+    background-color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5CBE3A;
+    border: 1px solid rgba(92, 190, 58, 0.3);
+    cursor: pointer;
+    
+}
+.button-product:active {
+    background-color: #EBFFE4;
+    transform: translateY(2px);
+}
+
+
+.sneakers {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}

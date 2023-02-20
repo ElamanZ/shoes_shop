@@ -1,0 +1,72 @@
+
+.footer-menu {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    a {
+        text-decoration: none;
+        color: gray;
+        margin: 30px;
+        text-align: center;
+        
+    }
+    a:active {
+        
+        color: black;
+    }
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    h5 {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 140%;
+        margin-right: 30px;
+    }
+
+    button {
+        height: 48px;
+        width: 48px;
+        border-radius: 50px;
+        cursor: pointer;
+        border: solid 1px;
+        background-color: #5CBE3A;
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    button:active {
+        background-color: #82e060;
+    }
+}
+
+.footer-block {
+    border-top: solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btnTwitter {
+    margin: 0 25px;
+}
+.footer-bottom {
+    background-color: #5CBE3A;
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h5 {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        color: #EBFFE4;
+    }
+}
