@@ -12,15 +12,17 @@ export default function CartItem() {
     return (
         <div className='overlay'>
             <div className='drawer'>
-                <h2>Cart Item</h2>
+                <div className='product-title'>
+                    <h2>Cart Item</h2>
+                    <button><img width={20} height={20} src={close} alt="close" /></button>
+                </div>
 
                 <div className='cart-product'>
                     <img width={150} height={100} src={cross1} alt="cross" />
-                    
                     <div>
                         <p>ALIQUAM LOBORTIS</p>
                         <b>$75</b>
-                        
+
                     </div>
                     <div className='counter'>
                         <div className='button__wrapper'>
@@ -33,9 +35,16 @@ export default function CartItem() {
                     </div>
                     <div>
                         <button className='product-btn'><img width={20} height={20} src={close} alt="close" /></button>
-                        
                     </div>
-                    
+                </div>
+                
+                <div className='bottom-block'>
+                    <div className='cart-total-block'>
+                        <span>Total:</span>
+                        <div className='border'></div>
+                        <b>$75</b>
+                    </div>
+                    <button className='checkout'>Proceed to checkout</button>
                 </div>
             </div>
         </div>
