@@ -8,14 +8,16 @@ import CartItem from './components/CartItem';
 
 
 
+
 function App() {
   return (
     <div className="App">
-      <CartItem/>
+      {/* <CartItem/> */}
       <Header/>
       <HomePage/>
       <ProductPage/>
       <Footer/>
+      
     </div>
   );
 }

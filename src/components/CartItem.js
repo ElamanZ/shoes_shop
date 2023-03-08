@@ -46,6 +46,7 @@ export default function CartItem() {
                     </div>
                     <button className='checkout'>Proceed to checkout</button>
                 </div>
+                
             </div>
         </div>
     )
